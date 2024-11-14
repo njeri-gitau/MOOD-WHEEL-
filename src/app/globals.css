@@ -25,3 +25,53 @@ body {
     text-wrap: balance;
   }
 }
+.bg-conic-gradient-outer {
+  background: conic-gradient(
+    lightcoral 0deg 30deg,
+    lightcoral 30deg 60deg,
+    lightpink 60deg 90deg,
+    lightpink 90deg 120deg,
+    lightgreen 120deg 150deg,
+    lightgreen 150deg 180deg,
+    lightsalmon 180deg 210deg,
+    lightsalmon 210deg 240deg,
+    lightyellow 240deg 270deg,
+    lightyellow 270deg 300deg,
+    lightblue 300deg 330deg,
+    lightblue 330deg 360deg
+  );
+}
+
+.bg-conic-gradient-inner {
+  background: conic-gradient(
+    red 0deg 60deg,
+    pink 60deg 120deg,
+    green 120deg 180deg,
+    orange 180deg 240deg,
+    yellow 240deg 300deg,
+    blue 300deg 360deg
+  );
+}
+
+.outer-gradient {
+  background: conic-gradient(
+    red 0deg 30deg,
+    orange 60deg 90deg,
+    yellow 120deg 150deg,
+    green 180deg 210deg,
+    blue 240deg 270deg,
+    pink 300deg 330deg
+  );
+  filter: brightness(1.5); /* 1 is normal; >1 lightens the gradient */
+}
+
+.inner-gradient {
+  background: conic-gradient(
+    red 0deg 60deg,
+    orange 60deg 120deg,
+    yellow 120deg 180deg,
+    green 180deg 240deg,
+    blue 240deg 300deg,
+    pink 300deg 360deg
+  );
+}
